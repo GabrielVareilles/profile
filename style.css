@@ -1,0 +1,129 @@
+body {
+    background-image: url("image/lol.jpeg");
+    background-repeat: repeat;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #7d7d7d;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+.container {
+    width: 700px;
+    margin: 30px auto;
+}
+
+.text-center {
+    text-align: center;
+}
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 5px 8px 10px 12px rgba(15, 15, 15, 1.0);
+}
+.img-circle {
+    border-radius: 30%;
+}
+
+#img-profile {
+    width: 300px;
+    height: 300px;
+    border: 3px solid #cccccc;
+    border-radius: 20%;
+}
+
+.btn-red {
+    background-color: #DD5555;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+}
+a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a19b4b;
+}
+
+.list-inline {
+    padding-left: 0;
+
+}
+
+.list-inline li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.list-inline li i {
+    font-size: 25px;
+    color: black;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#cars {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+#cars td {
+    padding: 10px;
+}
+
+#sidebar {
+  position: fixed;
+  width: 140px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #c6d43c;
+}
+#sidebar:hover; {
+  position: fixed;
+  width: 140px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #c6d43c;
+  transform: scaleX(1.25);
+}
+#page-content {
+  margin-left: 170px;
+}
+
+.fa1 {
+  display: inline-block;
+  font: normal normal normal 30px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  color: black;
+}
+
+.list-sidebar {
+  padding-left: 0;
+  color: black;
+
+}
+
+.list-sidebar li {
+  display: inline-block;
+  padding: 30px;
+}
+
+.list-sidebar li i {
+  font-size: 45px;
+}
